@@ -1,0 +1,18 @@
+{
+	"name": "SqlDatabase_LinkedService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "loan-sql-server.database.windows.net",
+			"database": "LoanDb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"hostNameInCertificate": "",
+			"authenticationType": "SQL",
+			"userName": "loanAdmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDAwN0E2RjAyLTQ4QzQtNDYzQy04MDQ1LTJBRUE2RTVFQkRGQ180YTQ3YzE3Zi05M2JiLTRhYmYtODIwYy05MTVjYjZkOTRkMGMiDQp9"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "LoanDf",
+	"location": "switzerlandnorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6af5fe51-8b8c-4e80-a5c7-ce211618a6fb",
+		"tenantId": "9d1a5fc8-321e-4101-ae63-530730711ac2"
+	}
+}
